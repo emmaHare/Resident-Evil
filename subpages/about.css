@@ -1,0 +1,54 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    height: 100vh;
+    width: 100vw;
+    background-image: url(/images-vids/background-about.JPG);
+    background-size: cover;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+header, header ul {
+    display: flex;
+}
+
+header{
+    height: 80px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 40px;    
+}
+
+header logo{
+    display: flex;
+    align-items: center;
+    font-size: 2rem;
+    font-weight: 300;
+    color: white;
+}
+
+header logo img{
+    height: 50px;
+}
+
+header ul{
+    gap: 80px;
+    font-size: 1.2rem;
+    list-style: none;
+    font-weight: 200;
+}
+
+header ul a{
+    color: white;
+    text-decoration: none;
+    text-transform: lowercase;
+    transition: 0.3s ease-in-out;
+    padding: 20px;
+}
+
+header ul a:hover{
+    color: white;
+    text-shadow: 0 0 5px red, 
+    0 0 10px rgba(255, 0, 0, 0.903),
+    0 0 15px rgba(255, 0, 0, 0.643);
+}
